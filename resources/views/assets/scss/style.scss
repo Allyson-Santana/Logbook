@@ -1,0 +1,64 @@
+// {
+    //CODIGO
+$theme-colors: (
+  'primary': #0d6efd,
+  'secondary': #6c757d,
+  'success': #198754,
+  'info': #0dcaf0,
+  'warning': #ffc107,
+  'danger': #dc3545,
+  'light': #f8f9fa,
+  'dark': #212529,
+
+  "brackground":  #84d5db87,
+  "my-primary": #00162e,
+  "my-secondary": #acafb11b,  
+  "my-success": #04BF45,
+  "my-warning": #F2CB05,
+  "my-danger": #F27405  
+);
+
+aside {
+  box-shadow: #6c757d 1px 0px 10px;
+}
+
+* {
+  font-family: Arial, helvetica, sans-serif;
+}
+
+.wrapper .sidebar{
+  width: 300px;
+}
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  list-style-type: none;
+}    
+.wrapper .sidebar ul li:hover{
+  background-color: #012244a1; 
+}
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 300px;
+}
+.wrapper .main_content .info{
+  line-height: 25px;
+}
+
+#texts{
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
+.nav-active{
+  background-color: #00274f; 
+}
+
+
+
+
+// }
+
+@import '~bootstrap/scss/bootstrap';
